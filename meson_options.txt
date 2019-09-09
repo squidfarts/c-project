@@ -19,4 +19,7 @@
 # Meson: Target options feature.
 #
 ##
-option('with_tests'  , type : 'boolean', value : 'false', description: 'Enable Unity for unit testing.')
+option('with_tests', 
+    type : 'feature', 
+    value : 'disabled', 
+    description: 'Enable Unity for unit testing.')
