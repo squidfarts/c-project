@@ -57,7 +57,6 @@ if cc.get_argument_syntax() == 'gcc'
             '-Wunreachable-code', 
             '-Wmissing-declarations',
             '-Wmissing-prototypes',
-            '-Wredundant-decls',
             '-Wundef',
             '-Wwrite-strings',
             '-Wformat',
