@@ -15,7 +15,7 @@
 project('c-exe', 'c',
     version        : '0.1.0',
     license        : 'Apache-2.0',
-    meson_version  : '>=0.51.0',
+    meson_version  : '>=0.50.0',
     default_options: [
         'buildtype=minsize',
         'optimization=3', 
