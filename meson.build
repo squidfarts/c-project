@@ -13,18 +13,16 @@
 ###################################################################################
 
 project('c-exe', 'c',
-    version         : '0.1.0',
-    license         : 'Apache-2.0',
-    meson_version   : '>=0.50.0',
-    default_options : 
-    [
-        'buildtype=release',
-        'b_lundef=true',
-        'werror=true',
-        'optimization=3',
+    version        : '0.1.0',
+    license        : 'Apache-2.0',
+    meson_version  : '>=0.51.0',
+    default_options: [
+        'buildtype=minsize',
+        'optimization=3', 
         'warning_level=3',
-        'c_std=c11'
-    ]
+        'werror=true', 
+        'c_std=c17'
+        ]
 )
 lang = 'c'
 cc = meson.get_compiler(lang)
