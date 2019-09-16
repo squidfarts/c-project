@@ -1,4 +1,6 @@
-[wrap-git]
+[wrap-file]
 directory = unity
-url = https://github.com/squidfarts/Unity.git
-revision = head
+
+source_url = https://github.com/ThrowTheSwitch/Unity/archive/master.zip
+source_filename = Unity.zip
+source_hash = d5439cc511604520807d4f5916fc939d4d9d7102a4a49788356ea3e74a62dedb
